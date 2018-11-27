@@ -14,6 +14,15 @@ namespace ArraysProblems
 
             Console.WriteLine($"Max sum {maxSum}");
             Console.ReadLine();
+
+
+            int[] arr1 = { 5, 6, 7, 8, 9, 10, 1, 2, 3 };
+            int n = arr1.Length;
+            int key = 42;
+            Console.Write("Index of the element is : "
+                        + FindelementUnknownRotations.PivotBinarySearch(arr1, n, key));
+            Console.ReadLine();
+
         }
     }
 }
